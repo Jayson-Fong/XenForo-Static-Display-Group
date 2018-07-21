@@ -5,13 +5,13 @@ This add-on will create a new column in the xf_user table to store selected colo
 
 For Controllers and Models:
 ```
-$styleGroupModel = $this->getModelFromCache('jayson_DisplayGroup_Model_StyleGroup');
+$styleGroupModel = $this->getModelFromCache('jayson_SDG_Model_StyleGroup');
 $styleGroupModel->setStyleGroup($group_id, $visitor['user_id']);
 ```
 
 For Non-Controllers/Models:
 ```
-$styleGroupModel = XenForo_Model::create('jayson_DisplayGroup_Model_StyleGroup');
+$styleGroupModel = XenForo_Model::create('jayson_SDG_Model_StyleGroup');
 $styleGroupModel->setStyleGroup($group_id, $visitor['user_id']);
 ```
 
