@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="jayson_SDG" title="[JF] Static Display Group" version_string="1.0.0" version_id="1" url="https://jaysonfong.me" install_callback_class="jayson_SDG_Install" install_callback_method="Install" uninstall_callback_class="jayson_SDG_Install" uninstall_callback_method="Uninstall">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates/>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners>
+    <listener event_id="load_class_datawriter" execute_order="0" callback_class="jayson_SDG_Listener" callback_method="Listen" active="1" hint="XenForo_DataWriter_User" description=""/>
+  </code_event_listeners>
+  <cron/>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups/>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases/>
+  <route_prefixes/>
+  <style_properties/>
+  <templates/>
+  <public_template_modifications/>
+  <bb_code_media_sites/>
+  <bb_codes/>
+</addon>
